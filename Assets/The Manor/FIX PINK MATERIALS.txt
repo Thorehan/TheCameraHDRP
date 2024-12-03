@@ -1,0 +1,4 @@
+If you're seeing pink materials you're probably using the wrong pipeline!
+You need to use this package in a HD Render Pipeline (HDRP), so you have to create a new project with the HDRP template or you can convert your existing project into it from Package Manager.
+After that, if you're still seeing pink materials you will need to reimport all the package, clicking the right button on the Project tab and selecting the option "Reimport All".
+This should be enough to fix the problem, but if it isn't please contact us from the Asset Store page.
