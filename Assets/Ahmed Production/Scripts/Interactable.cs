@@ -2,16 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EtkilesimScript : MonoBehaviour
+public abstract class Interactable : MonoBehaviour
 {
     public string promptMessage;
 
-    public void BaseEtkilesim()
+    public void BaseInteract()
     {
-        Etkilesim();
+        Interact();
     }
-
-    protected virtual void Etkilesim()
+    protected virtual void Interact()
     {
 
     }
