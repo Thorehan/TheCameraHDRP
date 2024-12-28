@@ -25,7 +25,7 @@ RenderSettings:
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
-  m_AmbientMode: 4
+  m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
   m_SkyboxMaterial: {fileID: 0}
   m_HaloStrength: 0.5
@@ -6721,6 +6721,10 @@ PrefabInstance:
     - target: {fileID: 400002, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalPosition.z
       value: -0.021
+      objectReference: {fileID: 0}
+    - target: {fileID: 14300000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 223466773, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_Version
@@ -19487,7 +19491,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2ffef2b61cea024f9a00b7fff29afa6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interactRange: 4
+  interactRange: 1.35
   interactableLayer:
     serializedVersion: 2
     m_Bits: 64
@@ -20499,6 +20503,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &1311407148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1098487545}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d8f7e0f20fadf442b0f4a87ff596323, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetScale: {x: 0.4, y: 0.4, z: 0.4}
+  smoothSpeed: 5
 --- !u!1001 &1312460501
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21725,7 +21743,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 09e0a2df6fa670642b27219bc1ad71cb,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.07000011
+      value: -0.05
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 09e0a2df6fa670642b27219bc1ad71cb,
         type: 3}
@@ -21780,6 +21798,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1311407147}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 09e0a2df6fa670642b27219bc1ad71cb,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1311407148}
   m_SourcePrefab: {fileID: 100100000, guid: 09e0a2df6fa670642b27219bc1ad71cb, type: 3}
 --- !u!1001 &1421753685
 PrefabInstance:
