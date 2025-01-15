@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9e2bb752b2fbed244b8d221cebd38825
+guid: 2afc0a6ea5bde1c45ba119b2e99b8e7b
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -7,7 +7,7 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: ivy
+      name: ivy.001
     second: {fileID: 2100000, guid: 6bc27111112439f4499c0d188fd252ce, type: 2}
   materials:
     materialImportMode: 2
